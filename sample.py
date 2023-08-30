@@ -1,8 +1,5 @@
 from windows_pathlib import WindowsPathlib as Path
-import os
 
-
-a = Path(os.path.expanduser("~/Desktop"))
 
 print(Path.appdata())
 print(Path.cache())
