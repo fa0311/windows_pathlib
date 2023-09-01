@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "windows_pathlib"
+version = "0.0.1"
+description = "Best Practices for Handling Paths in Windows."
+authors = ["fa0311 <yuki@yuki0311.com>"]
+license = "MIT"
+readme = "README.md"
+license_file = "LICENSE.txt"
+repository = "https://github.com/fa0311/windows_pathlib"
+keywords = ["pathlib"]
+include = ["windows_pathlib/py.typed"]
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
